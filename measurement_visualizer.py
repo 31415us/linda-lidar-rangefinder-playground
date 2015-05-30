@@ -38,7 +38,7 @@ PLOT_UPDATE = 3.0
 
 def main():
 
-    robot_state = RobotState(1.0, 1.0, 0.0)
+    robot_state = RobotState(1.5, 1.0, 0.0)
 
     forward = False
     backward = False
@@ -134,6 +134,8 @@ def init_plot():
     line, = plt.plot([], 'ro')
     plt.xlim([-pi, pi])
     plt.ylim([0.0, 3.0])
+    plt.xlabel('angle')
+    plt.ylabel('dist')
 
     return ax, line
 
