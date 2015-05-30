@@ -7,7 +7,7 @@ args = dict(
         version='0.1',
         description='lidar rangefinder playground',
         packages=['linda'],
-        install_requires=['numpy'],
+        install_requires=['numpy, scipy'],
         author='Pius von Daeniken',
         url='https://github.com/31415us/linda-lidar-rangefinder-playground'
 )
